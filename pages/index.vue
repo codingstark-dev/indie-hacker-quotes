@@ -91,7 +91,7 @@ export default {
     background-image: linear-gradient(to bottom,
             rgba(245, 246, 252, 0.52),
             rgba(59, 59, 59, 0.73)),
-        url("https://source.unsplash.com/featured/?white color");
+        url("https://source.unsplash.com/featured/?natural,building");
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -101,8 +101,9 @@ export default {
 
 .first-txt {
     position: absolute;
-    top: 20%;
+    top: 30px;
     left: 4%;
+    margin: revert;
 }
 
 .second-txt {
